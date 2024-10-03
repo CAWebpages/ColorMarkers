@@ -1,0 +1,69 @@
+body {
+  background-image: url(https://en.idei.club/uploads/posts/2023-06/1686344516_en-idei-club-p-simple-background-design-dizain-pinterest-1.jpg);
+}
+
+h1 {
+  color: hsl(147, 19%, 56%);
+  text-align: center;
+  font-size: xx-large;
+  font-family: cursive;
+}
+
+.container {
+  background-color: rgba(124, 195, 154, 0.09);
+  width: 42%;
+  padding: 18px;
+  margin: 12px auto;
+  border-radius: 21px;
+  box-shadow: 0 0 15px #6c875d;
+}
+
+.marker {
+  background-color: aqua;
+  width: 180px;
+  height: 18px;
+  margin: 15px auto;
+  border-radius: 2.1px;
+}
+
+.sleeve,
+.facade {
+  display: inline-block;
+}
+
+.sleeve {
+  width: 54%;
+  height: 18px;
+  background-color: rgba(255, 255, 255, 0.338);
+  border-left: 11.1px double rgba(255, 255, 255, 0.404);
+  border-right: 3.9px solid rgba(255, 255, 255, 0.404);
+  border-radius: 2.1px;
+}
+
+.facade {
+  width: 30.6%;
+  height: 18px;
+}
+
+.red {
+  background: linear-gradient(
+    rgba(199, 34, 34, 0.371),
+    rgba(250, 122, 158, 0.81),
+    rgba(199, 34, 34, 0.81)
+  );
+  box-shadow: 0 0 18px rgba(194, 68, 68, 0.48);
+}
+
+.green {
+  background: linear-gradient(#28ad564f, #84df60, #28ad56ec);
+  box-shadow: 0 0 18px #56af33cc;
+}
+
+.blue {
+  background: linear-gradient(
+    hsla(240, 81%, 51%, 0.325),
+    hsl(223, 60%, 54%),
+    hsla(240, 81%, 51%, 0.804)
+  );
+  box-shadow: 0 0 18px rgba(39, 65, 139, 0.48);
+}
